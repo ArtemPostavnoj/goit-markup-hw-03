@@ -288,7 +288,7 @@ ul{
 }
 .projects-item{
     background: #FFFFFF;
-border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .content-view{
     font-weight: 400;
