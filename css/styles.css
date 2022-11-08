@@ -23,13 +23,7 @@ ul{
     padding: 0;
     margin: 0;
 }
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    
-}
+
 /* Header */
 .header-nav{
     display: flex;
@@ -286,17 +280,7 @@ ul{
     letter-spacing: 0.06em;
     padding: 20px 24px 4px 24px;
 }
-.projects-item{
-    background: #FFFFFF;
-    border-bottom: 1px solid #EEEEEE;
-}
-.content-view{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    padding: 0px 24px 20px 24px;
-}
+
 .current{
     color: #2196F3;
 }
@@ -313,10 +297,31 @@ ul{
     gap: 8px;
     margin-bottom: 50px;
 }
+.projects-item{
+    background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+}
+.projects-list{
+    flex-basis: calc((100% - 60px) / 3);
+}
 .container-projects{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
+.content-view{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    padding: 0px 24px 20px 24px;
 }
 .visually-hidden {
     position: absolute;
