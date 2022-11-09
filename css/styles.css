@@ -312,7 +312,7 @@ ul{
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 20px;
-    padding-bottom: 54px;
+    padding-bottom: 20px;
 }
 .projects-list{
     flex-basis: calc((100% - 60px) / 3);
