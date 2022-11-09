@@ -31,6 +31,8 @@ ul{
 }
 .page-header{
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .contacts-nav-flex{
     display: flex;
@@ -38,8 +40,6 @@ ul{
 }
 .header-container{
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
     align-items: center;
 }
 .logo{
@@ -95,6 +95,8 @@ ul{
 /* Main index */
 .banner{
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .banner-title{
     color: #FFFFFF;
@@ -177,7 +179,7 @@ ul{
     line-height: 1.87;
     color: #FFFFFF;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
     border-radius: 4px;
     border: 0;
     padding: 10px 32px ;
@@ -210,6 +212,11 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+}
+.working-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .working{
     display: flex;
@@ -267,6 +274,7 @@ ul{
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
 }
 .button-filter:focus,
 .button-filter:hover{
@@ -278,7 +286,7 @@ ul{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 20px 24px 4px 24px;
+    margin-bottom: 4px;
 }
 
 .current{
@@ -298,8 +306,13 @@ ul{
     margin-bottom: 50px;
 }
 .projects-item{
-    background: #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 54px;
 }
 .projects-list{
     flex-basis: calc((100% - 60px) / 3);
@@ -321,7 +334,6 @@ ul{
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    padding: 0px 24px 20px 24px;
 }
 .visually-hidden {
     position: absolute;
